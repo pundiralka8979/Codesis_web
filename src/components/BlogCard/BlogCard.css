@@ -1,0 +1,120 @@
+/**,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+*/
+.blog-container{
+    margin-right: 100px;
+    width: auto;
+    height: 100vh;
+    background-color: #003049 0% 0% no-repeat padding-box;
+    
+    box-sizing: border-box;
+    position: relative;
+    
+
+}
+.blog_heading{
+padding-top: 50px;
+text-align: center;
+font: normal normal bold 45px/55px Montserrat;
+letter-spacing: 0px;
+color: #F9BB49;
+opacity: 1;
+}
+.blog_main_conatiner{
+    
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+
+.blog-post{
+    
+    width: 343px;
+    height: 500px;
+    max-width: 98rem;
+    padding: 5rem;
+    margin: 50px;
+    background: transparent linear-gradient(180deg, #003049 0%, #0030490F 100%) 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 0.64;
+    
+    
+}
+.blog-post__info{
+    background-color: #ffff;
+    min-width: 350px;
+    max-width: 350px;
+    height: 170px;
+    text-align: left;
+    transform: translateY(10rem);
+    padding: 20px;
+    position: relative;
+    box-shadow: 0px 0px 3px 29px rgba(0, 0, 0, #00000029);
+    border-radius: 8px;
+
+    
+
+}
+/*
+.blog-post__info::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 3px 29px rgba(0, 0, 0, #00000029);
+    border-radius: 8px;
+}
+*/
+@media screen and (max-width: 1068px){
+    .blog-post{
+        max-width: 80rem;
+    }
+
+
+.blog-post__info{
+    min-width: 350px;
+    max-width: 350px;
+}
+}
+@media screen and (max-width: 1068px){
+    .blog-post{
+        max-width: 80rem;
+    }
+
+
+.blog-post__info{
+    min-width: 30rem;
+    max-width: 30rem;
+}
+}
+@media screen and (max-width: 868px){
+    .blog-post{
+        max-width: 70rem;
+    }
+
+
+
+}
+@media screen and (max-width: 768px){
+    .blog-post{
+        padding: 2.5rem;
+        flex-direction: column;
+    }
+
+
+.blog-post__info{
+    min-width: 100%;
+    max-width: 100%;
+   transform: translateY(10rem, 0);
+}
+}

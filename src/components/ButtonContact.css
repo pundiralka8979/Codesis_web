@@ -1,0 +1,26 @@
+.nav-button{
+  
+  top: 52px;
+  left: 1489px;
+  width: 153px;
+  height: 55px;
+  background: #D32827 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  color: #FFFFFF;
+  opacity: 1;
+  /*
+    background-color: maroon;
+      border-radius:5px;
+      border:1px solid maroon;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      
+      font-size:17px;
+      padding:16px 31px;
+      text-decoration:none;
+
+    */
+      
+    
+  }

@@ -1,0 +1,55 @@
+.myPerformance{
+
+margin-left: 100px;
+margin-right: 100px;
+width: auto;
+height: auto;
+background: #003049 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.myPerformanceHeading{
+    padding-top: 150px;
+    margin: 0px auto;
+    width: 848px;
+height: 50px;
+    text-align: center;
+font: normal normal bold 45px/55px Montserrat;
+letter-spacing: 0px;
+color: #F9BB49;
+opacity: 1;
+
+}
+.myPerformancePara{
+    margin: auto;
+    margin-top: 130px;
+    width: 868px;
+height: 86px;
+    text-align: center;
+font: normal normal normal 20px/30px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 0.8;
+    
+}
+.myOuterBox{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+
+}
+.mybox{
+    width: 20%;
+    margin: 60px;
+    box-sizing: border-box;
+    
+}
+/*add responsive media quaries 
+@media screen and (max-width: 1200px){
+    .mybox{
+        width: 40%;
+    }
+}
+*/ 

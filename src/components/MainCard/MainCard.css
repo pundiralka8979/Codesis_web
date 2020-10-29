@@ -1,0 +1,79 @@
+.mainDiv{
+
+margin-left: 100px;
+margin-right: 50px;
+width: auto;
+height: auto;
+background: #003049 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+.mainSection{
+    padding-top: 100px ;
+    width: 950px;
+    height: 55px;
+    margin-left: 300px;
+    font: normal normal bold 45px/55px Montserrat;
+    letter-spacing: 0px;
+    color: #F9BB49;
+    opacity: 1;
+}
+.mainSection2{
+margin-top: 60px;
+width: 862px;
+height: 24px;
+margin-left: 270px;
+font: normal normal normal 20px/30px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 0.8;
+}
+.myconatiner1{
+    margin-left: 150px;
+    margin-top: 20px;
+    display: Flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.mycard{
+width: 200px;
+height: 200px;
+margin: 50px;
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+opacity: 1;
+
+}
+
+.myText{
+margin-top: 10px;
+margin-left: 20px;
+width: 150px;
+height: 65px;
+text-align: center;
+font: small;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 0.8;
+
+}
+
+.lastHeader{
+padding-top: 20px;
+margin-left: 100px;
+width: 500px;
+height: 50px;
+
+text-align: center;
+font: normal normal bold 40px/55px Montserrat;
+letter-spacing: 0px;
+color: #F9BB49;
+opacity: 1;
+}
+.myLastHeader{
+    margin-left: 320px;
+    width: 700px;
+    height: 140px;
+    background: #003049 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

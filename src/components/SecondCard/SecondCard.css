@@ -1,0 +1,38 @@
+
+.myCol1{
+  
+  color: #fff;
+  height: 389px;
+  background: #003049 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.mySection{
+margin-top: 50px;
+margin-left: 100px;
+
+width: 624px;
+height: 112px;
+
+text-align: left;
+font: normal normal bold 45px/55px Montserrat;
+letter-spacing: 0px;
+color: #F9BB49;
+opacity: 1;
+}
+.mysection1 {
+top: 25px;
+margin-left: 100px;
+width: 500px;
+height: 86px;
+
+text-align: left;
+font: small;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 0.8;
+
+}
+.myCol2{
+  background: #fff;
+  position: absolute;
+}
